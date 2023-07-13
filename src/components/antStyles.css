@@ -19,7 +19,7 @@
   margin-left: 0px !important;
   margin-bottom: 15px !important;
   font-weight: 600 !important;
-  border: none !important;
+  border: none;
   border-radius: 100px !important;
  }
  :where(.css-dev-only-do-not-override-1m62vyb).ant-btn-default {
@@ -32,7 +32,7 @@
   background: none !important;
   color: #fff !important;
 }
-.ant-modal-footer{
+.ant-btn-primary{
   background-color: rgba(58, 220, 204, 1) !important;
   color: #000 !important;
 }
