@@ -11,31 +11,43 @@
   background: none !important;
  }
  .ant-modal-body p{
-  color: rgba(223, 227, 234, 1);
-  font-size: 13px;
+  color: rgba(223, 227, 234, 1) !important;
+  font-size: 13px !important;
  }
  .ant-modal-footer button{
-  width: 100%;
+  width: 100% !important;
   margin-left: 0px !important;
-  margin-bottom: 15px;
-  font-weight: 600;
-  border: none;
-  border-radius: 100px;
+  margin-bottom: 15px !important;
+  font-weight: 600 !important;
+  border: none !important;
+  border-radius: 100px !important;
  }
  :where(.css-dev-only-do-not-override-1m62vyb).ant-btn-default {
   border:1px solid rgba(255, 255, 255, 1) !important;
   background: none !important;
-  color: #fff;
+  color: #fff !important;
 }
 
 :where(.css-dev-only-do-not-override-1m62vyb).ant-modal .ant-modal-footer .ant-btn+.ant-btn:not(.ant-dropdown-trigger) {
-  background-color: rgba(58, 220, 204, 1);
-  color: #000;
+  background-color: rgba(58, 220, 204, 1) !important;
+  color: #000 !important;
 }
 .ant-modal-close-x{
-  margin-top: -19px;
-  margin-right: -22px;
+  margin-top: -19px !important;
+  margin-right: -22px !important;
   color:rgba(143, 163, 188, 1) !important;
-  font-size: 12px;
+  font-size: 12px !important;
 }
+.input {
+  border: none;
+  width: 92%;
+  margin-bottom: 5px;
+  margin-left: 13px;
+  padding: 4px 5px 4px 5px;
+  color:rgba(143, 163, 188, 1);
+  background: none;
+ }
+ .input:focus{
+         outline: none;
+     }
 
