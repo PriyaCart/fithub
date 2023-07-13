@@ -1,0 +1,41 @@
+.ant-modal-content {
+    text-align: center !important;
+    background: rgba(37, 48, 62, 1) !important;
+ }
+ .ant-modal-header {
+  background: none !important;
+  color: #fff !important;
+ }
+ .ant-modal-title {
+  color: #fff !important;
+  background: none !important;
+ }
+ .ant-modal-body p{
+  color: rgba(223, 227, 234, 1);
+  font-size: 13px;
+ }
+ .ant-modal-footer button{
+  width: 100%;
+  margin-left: 0px !important;
+  margin-bottom: 15px;
+  font-weight: 600;
+  border: none;
+  border-radius: 100px;
+ }
+ :where(.css-dev-only-do-not-override-1m62vyb).ant-btn-default {
+  border:1px solid rgba(255, 255, 255, 1) !important;
+  background: none !important;
+  color: #fff;
+}
+
+:where(.css-dev-only-do-not-override-1m62vyb).ant-modal .ant-modal-footer .ant-btn+.ant-btn:not(.ant-dropdown-trigger) {
+  background-color: rgba(58, 220, 204, 1);
+  color: #000;
+}
+.ant-modal-close-x{
+  margin-top: -19px;
+  margin-right: -22px;
+  color:rgba(143, 163, 188, 1) !important;
+  font-size: 12px;
+}
+
